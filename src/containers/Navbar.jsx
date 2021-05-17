@@ -25,7 +25,7 @@ const Navbar = () => {
         <input type="text" placeholder="Search..." />
         <i class="search icon"></i>
       </div>
-      <a href="#login">Login</a>
+      <a href="login">Login</a>
     </div>
   );
 };
