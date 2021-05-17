@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 const TheLayout = React.lazy(() => import('./containers/TheLayout'));
-const Home = React.lazy(() => import('./views/home/Home'));
+const Login = React.lazy(() => import('./views/login/Login'));
 
 const loading = (
   <div class="ui segment">
@@ -20,6 +20,7 @@ function App() {
     <BrowserRouter>
       <React.Suspense fallback={loading}>
         <Switch>
+          <Route path="/login" exact name="Home" component={Login} />
           <Route
             path="/"
             name="Home"

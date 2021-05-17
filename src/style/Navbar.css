@@ -1,0 +1,78 @@
+.topnav {
+  background-color: #04aa6d;
+  overflow: hidden;
+  display: flex;
+}
+
+.topnav > div {
+  margin: 0 1%;
+}
+
+#logo {
+  height: 2em;
+
+  align-self: center;
+  margin-left: 1%;
+}
+
+.address-selection {
+  width: fit-content;
+  display: flex;
+  cursor: pointer;
+  color: white;
+}
+
+.address-selection > img {
+  height: 2em;
+  align-self: center;
+  justify-self: left;
+}
+
+.address-selection > div {
+  padding: 2% 0;
+}
+
+.address-selection > div > div:nth-child(1) {
+  font-size: 0.85em;
+}
+
+.address-selection > div > div:nth-child(2) {
+  font-weight: bold;
+}
+
+#product-search {
+  /* max-width: 70% !important;
+  min-width: 60%; */
+  flex-grow: 1;
+  height: 85%;
+  align-self: center;
+}
+
+/* .topnav > .input {
+  width: 75% !important;
+  height: 85%;
+  align-self: center;
+} */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(87, 187, 126);
+  font-weight: 500;
+  /* color: black; */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
