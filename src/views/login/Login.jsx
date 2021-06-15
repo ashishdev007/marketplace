@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../../style/Login.css';
+import { Link } from 'react-router-dom';
+import '../../style/Auth.css';
 
 import logo from '../../assets/logo.png';
 
@@ -30,16 +31,21 @@ const Login = () => {
           New Here?
         </div>
 
-        <button className="ui button" style={{ width: '90%', margin: 'auto' }}>
-          Create New Account
-        </button>
+        <Link to="/signup" className="ta-center">
+          <button className="ui button" style={{ width: '90%' }}>
+            Create New Account
+          </button>
+        </Link>
+
         <div className="separator" style={{ margin: '4% 0' }}>
           Wanna Sell Here?
         </div>
 
-        <button className="ui button" style={{ width: '90%', margin: 'auto' }}>
-          Create A Seller Account
-        </button>
+        <Link to="/signup/seller" className="ta-center">
+          <button className="ui button" style={{ width: '90%' }}>
+            Create A Seller Account
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 .login-container {
   /* height: 10vh; */
-  width: 25vw;
+  min-width: 25vw;
   height: fit-content;
   /* background-color: red; */
   margin: 2% auto 0;

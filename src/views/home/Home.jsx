@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <div style={{ margin: 'auto', width: '80%', paddingTop: '2.5%' }}>Home</div>
+  );
 };
 
 export default Home;
