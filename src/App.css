@@ -22,6 +22,14 @@ html {
   text-align: center;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.green-text {
+  color: rgb(87, 187, 126);
+}
+
 .separator {
   display: flex;
   align-items: center;
