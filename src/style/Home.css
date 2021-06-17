@@ -1,0 +1,10 @@
+.home-container {
+  padding: 2.5%;
+}
+
+.product-image {
+  height: 25vh !important;
+  width: auto !important;
+  max-width: 100%;
+  margin: auto;
+}
