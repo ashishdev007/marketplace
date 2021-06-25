@@ -37,6 +37,9 @@ const Navbar = () => {
           <i class="search icon"></i>
         </div>
       </form>
+      <div className="flex">
+      <i class="shopping cart icon" onClick={() => history.push("/cart")}></i>
+      </div>
       <a href="login">Login</a>
     </div>
   );

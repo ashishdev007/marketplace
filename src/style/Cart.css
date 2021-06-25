@@ -1,0 +1,57 @@
+.card-container {
+  width: 80vw;
+  margin: auto;
+  height: auto;
+
+  /* display: flex; */
+  /* justify-items: center; */
+
+  padding-top: 2.5%;
+}
+
+.card-container > h1 {
+  font-family: 'Roboto';
+  font-size: 2.25em;
+}
+
+hr {
+  width: 80%;
+}
+
+.myCard {
+  height: 18vh !important;
+  width: 75%;
+
+  margin: auto !important;
+  margin-bottom: 15px !important;
+  display: flex;
+}
+
+.myCard > img {
+  height: 100%;
+}
+
+.myCard > .description {
+  margin-left: 2%;
+}
+.myCard > .description > p {
+  text-decoration: underline;
+}
+
+.price {
+  align-self: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.total {
+  width: 75%;
+  margin: 2% auto;
+  padding-bottom: 50px;
+  font-size: 1.15em;
+}
+
+.total > .button {
+  margin-top: 2% !important;
+  margin-right: 0 !important;
+}
