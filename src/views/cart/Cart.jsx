@@ -1,20 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../style/Cart.css';
 import image1 from '../../assets/products/drills/1.jpg';
+import saw from '../../assets/products/others/electric_saw.jpg';
+import TermsAndConditions from '../terms/TermsAndConditions';
 
 const Cart = () => {
+  const [showTerms, setShowTerms] = useState(false);
   const getCards = () => {
-    let x = [1, 2, 3, 4];
+    let images = [image1, saw];
+    let desc = [
+      'BLACK+DECKER 20V Max Cordless Drill / Driver with 30-Piece Accessories (LD120VA)',
+      'Circular Saw, HYCHIKA 1500W/12.5A Corded Electric Saw with 5500RPM, 2Pcs Blades(24T+ 40T) Plus 1 Allen Wrench, Max Cutting Depth 2-1/2" (90°), 1-4/5" (45°)',
+    ];
 
-    return x.map((i) => {
+    return images.map((i, no) => {
       return (
-        <div className="ui segment myCard" key={i}>
-          <img src={image1} alt="" />
+        <div className="ui segment myCard" key={no}>
+          <img src={i} alt="" />
           <div className="description flex" style={{ flexDirection: 'column' }}>
-            <p style={{ fontSize: '1.25em', fontWeight: '600' }}>
-              BLACK+DECKER 20V Max Cordless Drill / Driver with 30-Piece
-              Accessories (LD120VA)
-            </p>
+            <p style={{ fontSize: '1.25em', fontWeight: '600' }}>{desc[no]}</p>
             <div className="flex-fill"></div>
             <div className="flex">
               <div>
@@ -35,17 +39,25 @@ const Cart = () => {
     });
   };
   return (
-    <div className="card-container">
-      <h1 className="ta-center">Your Cart</h1>
-      <hr />
-      {getCards()}
-      <div className="total ta-right">
-        <div>Gross Sum: $40.00</div>
-        <div>Tax: $5.00</div>
-        <div className="bold">Total: $45.00</div>
-        <button className="ui green button center">Checkout</button>
+    <>
+      <div className="card-container">
+        <h1 className="ta-center">Your Cart</h1>
+        <hr />
+        {getCards()}
+        <div className="total ta-right">
+          <div>Gross Sum: $40.00</div>
+          <div>Tax: $5.00</div>
+          <div className="bold">Total: $45.00</div>
+          <button
+            className="ui green button center"
+            onClick={() => setShowTerms(true)}
+          >
+            Checkout
+          </button>
+        </div>
       </div>
-    </div>
+      {showTerms && <TermsAndConditions setDisplay={setShowTerms} />}
+    </>
   );
 };
 

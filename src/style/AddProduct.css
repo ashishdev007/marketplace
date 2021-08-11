@@ -1,0 +1,21 @@
+.form-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.form-container > .ui.input {
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 2em;
+}
+
+.ui.input > .label {
+  margin-right: 1.15em;
+  font-size: 1.25em;
+}
+
+.ui.input > textarea {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+}

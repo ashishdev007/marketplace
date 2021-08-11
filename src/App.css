@@ -27,7 +27,7 @@ html {
 }
 
 .flex {
-  display: flex;
+  display: flex !important;
 }
 
 .flex-fill {
