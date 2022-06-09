@@ -26,8 +26,23 @@ html {
   font-weight: bold;
 }
 
+.flex {
+  display: flex !important;
+}
+
+.flex-fill {
+  flex-grow: 1;
+}
+
+.ta-right {
+  text-align: right;
+}
 .green-text {
   color: rgb(87, 187, 126);
+}
+
+.center {
+  margin: auto !important;
 }
 
 .separator {

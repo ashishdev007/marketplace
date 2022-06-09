@@ -76,3 +76,9 @@
   background-color: #04aa6d;
   color: white;
 }
+
+.shopping.cart.icon{
+  font-size: 2em !important;
+  margin-top: 40% !important;
+  cursor: pointer
+}
