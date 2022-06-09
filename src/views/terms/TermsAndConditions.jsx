@@ -25,26 +25,16 @@ const TermsAndConditions = ({ setDisplay }) => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua. At
             auctor urna nunc id cursus metus. Mi ipsum faucibus vitae aliquet
             nec ullamcorper sit amet risus. Sollicitudin ac orci phasellus
-            egestas tellus. Pharetra sit amet aliquam id diam maecenas
-            ultricies. Semper viverra nam libero justo laoreet sit amet. Gravida
-            neque convallis a cras semper auctor neque. Nunc mi ipsum faucibus
-            vitae aliquet nec ullamcorper sit. A diam maecenas sed enim ut sem.
-            Semper feugiat nibh sed pulvinar proin gravida. Consectetur purus
-            posuere ac ut. Id velit ut tortor pretium viverra. Commodo odio
-            aenean sed adipiscing. Imperdiet massa tincidunt nunc pulvinar
-            sapien et ligula.
+            egestas tellus. Pharetra sit amet aliquam id diam maecenas sapien et
+            ligula.
           </p>
           <p>
             A scelerisque purus semper eget duis at tellus at. Dolor sit amet
             consectetur adipiscing elit ut aliquam. A cras semper auctor neque
-            vitae tempus quam. Dui ut ornare lectus sit amet est. Lectus proin
-            nibh nisl condimentum. Integer vitae justo eget magna fermentum
-            feugiat vivamus at augue eget. Interdum varius sit amet mattis
-            vulputate enim nulla. Turpis egestas pretium aenean pharetra magna
-            ac placerat vestibulum lectus. Enim lobortis scelerisque fermentum
-            dui faucibus in ornare quam viverra. Morbi tristique senectus et
-            netus. Urna condimentum mattis pellentesque id. Eu tincidunt tortor
-            aliquam nulla facilisi cras fermentum odio eu.
+            vitae tempus quam. Dui ut ornare lectus sit amet est. dui faucibus
+            in ornare quam viverra. Morbi tristique senectus et netus. Urna
+            condimentum mattis pellentesque id. Eu tincidunt tortor aliquam
+            nulla facilisi cras fermentum odio eu.
           </p>
           <p>
             Massa tincidunt nunc pulvinar sapien et ligula ullamcorper.
